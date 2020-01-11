@@ -29,10 +29,12 @@ public class MyApp : Gtk.Application {
         }
         
     protected override void activate () {
+        var label = new Gtk.Label ("Hello Again World!");
         var main_window = new Gtk.ApplicationWindow (this);
         main_window.default_height = 500;
-        main_window.defult_width =700;
-        main_window.tittle= "Hello World";
+        main_window.default_width =700;
+        main_window.title= "Hello Again World!";
+        main_window.add (label);
         main_window.show_all ();
     }
     

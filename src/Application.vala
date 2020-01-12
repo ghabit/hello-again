@@ -16,7 +16,7 @@
 * Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor,
 * Boston, MA 02110-1301 USA
 *
-* Authored by: Author <guthabit@gmail.com>
+* Authored by: ghabit <guthabit@gmail.com>
 */
 
 public class MyApp : Gtk.Application {
